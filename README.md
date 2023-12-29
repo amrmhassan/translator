@@ -4,5 +4,5 @@
   "app name":"App Name Example",
   "greetings":"Hello dear user"
 }
- then run the main.dart with the translation folder path like dart ./main.dart ../path-to-folder
+ then run the main.dart with the translation folder path like dart ./main.dart "../path-to-folder"
  this folder will contain the translation files next to the en.json file

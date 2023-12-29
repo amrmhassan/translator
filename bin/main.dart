@@ -12,11 +12,11 @@ String apiKey = 'd24d44ce-3f3e-4655-a599-6ecbc2ba301c';
 //! nb language not supported
 
 void main(List<String> arguments) async {
-  String translationsPath = arguments.first;
   if (arguments.isEmpty) {
     print('please provide a valid folder path with ');
     return;
   }
+  String translationsPath = arguments.first;
   for (var i = 0; i < targetLanguages.length; i++) {
     String langCode = targetLanguages.entries.elementAt(i).value.toLowerCase();
     print('starting $langCode');
